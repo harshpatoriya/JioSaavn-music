@@ -1,0 +1,121 @@
+/*import Google Font Lato */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+/* Reset Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(246, 246, 246);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 70px;
+  padding: 1rem;
+  z-index: 1;
+}
+
+/* Nav Left */
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.nav-logo {
+  width: 130px;
+}
+
+.nav-logo img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Nav Middle */
+.nav-search {
+  position: relative;
+  display: flex;
+  width: 650px;
+  height: 45px;
+}
+.search-input {
+  width: 100%;
+  border-radius: 2rem;
+  text-align: center;
+}
+.search-icon {
+  position: absolute;
+  font-size: 1rem;
+  left: 43%;
+  top: 25%;
+}
+
+/* Nav Right */
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.nav-languages .language {
+  font-weight: 600;
+}
+.nav-languages .language-name {
+  font-weight: 300;
+}
+.nav-buttons button {
+  all: unset;
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+/* Main Section */
+.main-section {
+  display: flex;
+  width: 100vw;
+}
+
+/* Left Section */
+.left-section {
+  width: 18vw;
+  max-height: 80vh;
+  padding: 2.5rem;
+}
+
+/* Middle Section */
+.middle-section {
+  width: 72vw;
+  min-height: 80vh;
+  background-color: blueviolet;
+}
+
+/* Right Section */
+.right-section {
+  width: 10vw;
+  max-height: 80vh;
+  background-color: rosybrown;
+}
